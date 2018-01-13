@@ -5,6 +5,8 @@
 }
 .wrapper {
   position: relative;
+  border: 1px solid transparent;
+  overflow: hidden;
 }
 .wrapper .imgbox {
   width: 9999px;
