@@ -46,7 +46,7 @@ function goToslide(index){
 	}else if(index <0){
 		index = $dotslength-1
 	}
-	
+	$(".dots .dot").eq(index).addClass('active').siblings().removeClass('active')
 	if(current == $dotslength - 1 && index == 0) {
 				$imgbox.css({
 					transform: `translateX(${-($dotslength+1)*100}vw)`
