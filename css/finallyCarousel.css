@@ -26,8 +26,10 @@
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: skyblue;
   border: 1px solid silver;
+}
+.wrapper .dots .active {
+  background: skyblue;
 }
 .wrapper .arrows {
   position: absolute;
